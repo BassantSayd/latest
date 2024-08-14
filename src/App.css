@@ -1,0 +1,59 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1c1c1c;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    max-width: 100%;
+  }
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.name {
+  margin: 10px 0 5px;
+}
+
+.location {
+  color: #9acd32;
+}
+
+.bio {
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #27d110;
+}
